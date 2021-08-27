@@ -9,7 +9,7 @@ Inspired by @Rvn0xsy and the famous [MemoryModule](https://github.com/fancycode/
 
 #### Server
 
-​	Maked a simple socket server via c++ which is called `PigSender`(only work on Linux)
+Maked a simple socket server via c++ which is called `PigSender`(only work on Linux)
 
 Responsible for processing the request sent by the client and transferring the DLL
 
@@ -28,6 +28,9 @@ Responsible for processing the request sent by the client and transferring the D
 2. In the Client, just specify the address listened in the first step
 
 ![image-20210810085922601](https://images-1258433570.cos.ap-beijing.myqcloud.com/images/20210810085923.png)
+
+
+Of course, for better results, you can encrypt the traffic in network transmission, cause the feature of PE files are very obvious
 
 **Thanks to this excellent "non-landing" technology, you can use this project to reduce the pain of evasion anti-virus in some temporary environments**
 
